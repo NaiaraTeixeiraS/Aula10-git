@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.exemplo</groupId>
-    <artifactId>aula09-git</artifactId>
+    <artifactId>aula10-git</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
