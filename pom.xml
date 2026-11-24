@@ -122,6 +122,9 @@
                         <configuration>
                             <failBuildOnCVSS>7</failBuildOnCVSS>
                             <nvdApiKey>${env.NVD_API_KEY}</nvdApiKey>
+                            <nvdApiDelay>6000</nvdApiDelay>
+                            <nvdMaxRetryCount>15</nvdMaxRetryCount>
+                            <nvdApiResultsPerPage>500</nvdApiResultsPerPage>
                             <ossindexAnalyzerEnabled>false</ossindexAnalyzerEnabled>
                             <formats>
                                 <format>HTML</format>
