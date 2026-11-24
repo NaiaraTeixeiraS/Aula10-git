@@ -24,6 +24,9 @@ jobs:
       - name: Run Unit Tests
         run: mvn -B test
 
+      - name: Code Quality Check
+        run: mvn -B checkstyle:check
+
       - name: Upload JaCoCo report
         uses: actions/upload-artifact@v4
         with:
